@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F117EB12195214000AAC72F /* XLFactoryPatternVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F117EAF2195214000AAC72F /* XLFactoryPatternVC.m */; };
+		8F117EB22195214000AAC72F /* XLFactoryPatternVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F117EB02195214000AAC72F /* XLFactoryPatternVC.xib */; };
+		8F117EB52195226F00AAC72F /* XLFactoryPatternBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F117EB42195226F00AAC72F /* XLFactoryPatternBaseCell.m */; };
+		8F117EB82195229000AAC72F /* XLFactoryPatternCellA.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F117EB72195229000AAC72F /* XLFactoryPatternCellA.m */; };
+		8F117EBB219522A000AAC72F /* XLFactoryPatternCellB.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F117EBA219522A000AAC72F /* XLFactoryPatternCellB.m */; };
+		8F117EBE219522B600AAC72F /* XLFactoryPatternCellC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F117EBD219522B600AAC72F /* XLFactoryPatternCellC.m */; };
+		8F117EC321952CB300AAC72F /* XLClassUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F117EC221952CB300AAC72F /* XLClassUtils.m */; };
+		8F15441521A2B86E00F0DE02 /* XLFactoryPatternConfigureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F15441421A2B86E00F0DE02 /* XLFactoryPatternConfigureModel.m */; };
+		8F3522DB214FB25500824F5B /* XLMusicPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3522DA214FB25500824F5B /* XLMusicPlayerVC.m */; };
+		8F3522DD214FC16B00824F5B /* XLMusicPlayerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F3522DC214FC16B00824F5B /* XLMusicPlayerVC.xib */; };
+		8F3522E5214FC67A00824F5B /* XLStreamPlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3522E3214FC67A00824F5B /* XLStreamPlayVC.m */; };
+		8F3522E6214FC67A00824F5B /* XLStreamPlayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F3522E4214FC67A00824F5B /* XLStreamPlayVC.xib */; };
+		8F5C0B9221AD350000DD7D64 /* XLBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C0B9121AD350000DD7D64 /* XLBluetooth.m */; };
+		8F5C0B9721AD35E600DD7D64 /* XLBluetoothVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5C0B9521AD35E600DD7D64 /* XLBluetoothVC.m */; };
+		8F5C0B9821AD35E600DD7D64 /* XLBluetoothVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F5C0B9621AD35E600DD7D64 /* XLBluetoothVC.xib */; };
+		8F5C8533214E522C002B33E3 /* NetworkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F5C8531214E522C002B33E3 /* NetworkData.json */; };
+		8F5C8534214E522C002B33E3 /* VCClassName.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5C8532214E522C002B33E3 /* VCClassName.plist */; };
+		8F892F0421ABF7160004C323 /* XLTouchIDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F892F0221ABF7160004C323 /* XLTouchIDVC.m */; };
+		8F892F0521ABF7160004C323 /* XLTouchIDVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F892F0321ABF7160004C323 /* XLTouchIDVC.xib */; };
+		8F892F0821ABF90B0004C323 /* XLTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F892F0621ABF90B0004C323 /* XLTouchID.m */; };
+		8FE526ED2149FFB200C104C4 /* XLTutoriaPagesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE526EC2149FFB200C104C4 /* XLTutoriaPagesVC.m */; };
+		8FE526F02149FFE800C104C4 /* TutorialPages.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE526EE2149FFE800C104C4 /* TutorialPages.m */; };
+		8FE83F4F2150F8E600116E82 /* XLScreenRotationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE83F4D2150F8E600116E82 /* XLScreenRotationVC.m */; };
+		8FE83F502150F8E600116E82 /* XLScreenRotationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE83F4E2150F8E600116E82 /* XLScreenRotationVC.xib */; };
+		8FE83F542151043400116E82 /* XLScreenAutomaticRotationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE83F522151043400116E82 /* XLScreenAutomaticRotationVC.m */; };
+		8FE83F552151043400116E82 /* XLScreenAutomaticRotationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE83F532151043400116E82 /* XLScreenAutomaticRotationVC.xib */; };
+		8FE83F592151048500116E82 /* XLScreenForceRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE83F572151048500116E82 /* XLScreenForceRotation.m */; };
+		8FE83F5A2151048500116E82 /* XLScreenForceRotation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE83F582151048500116E82 /* XLScreenForceRotation.xib */; };
+		8FE83F60215105F200116E82 /* XLOnlyTextTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE83F5F215105F200116E82 /* XLOnlyTextTable.m */; };
+		8FE83F622151209F00116E82 /* XLOnlyTextTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE83F612151209F00116E82 /* XLOnlyTextTable.xib */; };
+		8FE83F66215123F600116E82 /* XLOnlyTextTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE83F64215123F600116E82 /* XLOnlyTextTableVC.m */; };
+		8FE83F67215123F600116E82 /* XLOnlyTextTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE83F65215123F600116E82 /* XLOnlyTextTableVC.xib */; };
+		8FE83F6B2151248C00116E82 /* XLOnlyTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE83F692151248C00116E82 /* XLOnlyTextCell.m */; };
+		8FE83F6C2151248C00116E82 /* XLOnlyTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE83F6A2151248C00116E82 /* XLOnlyTextCell.xib */; };
+		8FF4CE4B2148A7D000CD15F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4CE4A2148A7D000CD15F1 /* AppDelegate.m */; };
+		8FF4CE4E2148A7D000CD15F1 /* XLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4CE4D2148A7D000CD15F1 /* XLViewController.m */; };
+		8FF4CE512148A7D000CD15F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF4CE4F2148A7D000CD15F1 /* Main.storyboard */; };
+		8FF4CE532148A7D200CD15F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FF4CE522148A7D200CD15F1 /* Assets.xcassets */; };
+		8FF4CE562148A7D200CD15F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF4CE542148A7D200CD15F1 /* LaunchScreen.storyboard */; };
+		8FF4CE592148A7D200CD15F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4CE582148A7D200CD15F1 /* main.m */; };
+		8FF4CE62214918E900CD15F1 /* XLBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4CE61214918E900CD15F1 /* XLBaseVC.m */; };
+		8FF4CE652149193100CD15F1 /* XLUIViewAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4CE642149193100CD15F1 /* XLUIViewAnimationVC.m */; };
+		8FF4CE672149198900CD15F1 /* XLUIViewAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FF4CE662149198900CD15F1 /* XLUIViewAnimationVC.xib */; };
+		8FF4CE6B2149285A00CD15F1 /* XLVCTBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4CE692149285A00CD15F1 /* XLVCTBCell.m */; };
+		8FF4CE6C2149285A00CD15F1 /* XLVCTBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FF4CE6A2149285A00CD15F1 /* XLVCTBCell.xib */; };
+		E640627671955659D29EBDFB /* libPods-XLFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB570074A147DF1FBBA7C2E /* libPods-XLFramework.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17056B4674E9DB72A6D49AE7 /* Pods-XLFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLFramework/Pods-XLFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		4AB570074A147DF1FBBA7C2E /* libPods-XLFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FCAD1B13130596D5864D51 /* Pods-XLFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLFramework/Pods-XLFramework.release.xcconfig"; sourceTree = "<group>"; };
+		8F117EAE2195214000AAC72F /* XLFactoryPatternVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLFactoryPatternVC.h; sourceTree = "<group>"; };
+		8F117EAF2195214000AAC72F /* XLFactoryPatternVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFactoryPatternVC.m; sourceTree = "<group>"; };
+		8F117EB02195214000AAC72F /* XLFactoryPatternVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLFactoryPatternVC.xib; sourceTree = "<group>"; };
+		8F117EB32195226F00AAC72F /* XLFactoryPatternBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLFactoryPatternBaseCell.h; sourceTree = "<group>"; };
+		8F117EB42195226F00AAC72F /* XLFactoryPatternBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFactoryPatternBaseCell.m; sourceTree = "<group>"; };
+		8F117EB62195229000AAC72F /* XLFactoryPatternCellA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLFactoryPatternCellA.h; sourceTree = "<group>"; };
+		8F117EB72195229000AAC72F /* XLFactoryPatternCellA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFactoryPatternCellA.m; sourceTree = "<group>"; };
+		8F117EB9219522A000AAC72F /* XLFactoryPatternCellB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLFactoryPatternCellB.h; sourceTree = "<group>"; };
+		8F117EBA219522A000AAC72F /* XLFactoryPatternCellB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFactoryPatternCellB.m; sourceTree = "<group>"; };
+		8F117EBC219522B600AAC72F /* XLFactoryPatternCellC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLFactoryPatternCellC.h; sourceTree = "<group>"; };
+		8F117EBD219522B600AAC72F /* XLFactoryPatternCellC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFactoryPatternCellC.m; sourceTree = "<group>"; };
+		8F117EC121952CB300AAC72F /* XLClassUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLClassUtils.h; sourceTree = "<group>"; };
+		8F117EC221952CB300AAC72F /* XLClassUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLClassUtils.m; sourceTree = "<group>"; };
+		8F15441321A2B86E00F0DE02 /* XLFactoryPatternConfigureModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLFactoryPatternConfigureModel.h; sourceTree = "<group>"; };
+		8F15441421A2B86E00F0DE02 /* XLFactoryPatternConfigureModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFactoryPatternConfigureModel.m; sourceTree = "<group>"; };
+		8F3522D9214FB25500824F5B /* XLMusicPlayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLMusicPlayerVC.h; sourceTree = "<group>"; };
+		8F3522DA214FB25500824F5B /* XLMusicPlayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLMusicPlayerVC.m; sourceTree = "<group>"; };
+		8F3522DC214FC16B00824F5B /* XLMusicPlayerVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLMusicPlayerVC.xib; sourceTree = "<group>"; };
+		8F3522E2214FC67A00824F5B /* XLStreamPlayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLStreamPlayVC.h; sourceTree = "<group>"; };
+		8F3522E3214FC67A00824F5B /* XLStreamPlayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLStreamPlayVC.m; sourceTree = "<group>"; };
+		8F3522E4214FC67A00824F5B /* XLStreamPlayVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLStreamPlayVC.xib; sourceTree = "<group>"; };
+		8F5C0B9021AD350000DD7D64 /* XLBluetooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLBluetooth.h; sourceTree = "<group>"; };
+		8F5C0B9121AD350000DD7D64 /* XLBluetooth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLBluetooth.m; sourceTree = "<group>"; };
+		8F5C0B9421AD35E600DD7D64 /* XLBluetoothVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLBluetoothVC.h; sourceTree = "<group>"; };
+		8F5C0B9521AD35E600DD7D64 /* XLBluetoothVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLBluetoothVC.m; sourceTree = "<group>"; };
+		8F5C0B9621AD35E600DD7D64 /* XLBluetoothVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLBluetoothVC.xib; sourceTree = "<group>"; };
+		8F5C852B214E23F3002B33E3 /* XLAppConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAppConfig.h; sourceTree = "<group>"; };
+		8F5C852C214E2436002B33E3 /* XLCommonExtern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLCommonExtern.h; sourceTree = "<group>"; };
+		8F5C852D214E24AC002B33E3 /* XLNetworkAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLNetworkAPI.h; sourceTree = "<group>"; };
+		8F5C8531214E522C002B33E3 /* NetworkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NetworkData.json; sourceTree = "<group>"; };
+		8F5C8532214E522C002B33E3 /* VCClassName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VCClassName.plist; sourceTree = "<group>"; };
+		8F892F0121ABF7160004C323 /* XLTouchIDVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLTouchIDVC.h; sourceTree = "<group>"; };
+		8F892F0221ABF7160004C323 /* XLTouchIDVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLTouchIDVC.m; sourceTree = "<group>"; };
+		8F892F0321ABF7160004C323 /* XLTouchIDVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLTouchIDVC.xib; sourceTree = "<group>"; };
+		8F892F0621ABF90B0004C323 /* XLTouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTouchID.m; sourceTree = "<group>"; };
+		8F892F0721ABF90B0004C323 /* XLTouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTouchID.h; sourceTree = "<group>"; };
+		8FE526EB2149FFB200C104C4 /* XLTutoriaPagesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTutoriaPagesVC.h; sourceTree = "<group>"; };
+		8FE526EC2149FFB200C104C4 /* XLTutoriaPagesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTutoriaPagesVC.m; sourceTree = "<group>"; };
+		8FE526EE2149FFE800C104C4 /* TutorialPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialPages.m; sourceTree = "<group>"; };
+		8FE526EF2149FFE800C104C4 /* TutorialPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TutorialPages.h; sourceTree = "<group>"; };
+		8FE526F3214A01AB00C104C4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8FE52725214A635500C104C4 /* XLUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLUtility.h; sourceTree = "<group>"; };
+		8FE83F4C2150F8E600116E82 /* XLScreenRotationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLScreenRotationVC.h; sourceTree = "<group>"; };
+		8FE83F4D2150F8E600116E82 /* XLScreenRotationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLScreenRotationVC.m; sourceTree = "<group>"; };
+		8FE83F4E2150F8E600116E82 /* XLScreenRotationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLScreenRotationVC.xib; sourceTree = "<group>"; };
+		8FE83F512151043400116E82 /* XLScreenAutomaticRotationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLScreenAutomaticRotationVC.h; sourceTree = "<group>"; };
+		8FE83F522151043400116E82 /* XLScreenAutomaticRotationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLScreenAutomaticRotationVC.m; sourceTree = "<group>"; };
+		8FE83F532151043400116E82 /* XLScreenAutomaticRotationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLScreenAutomaticRotationVC.xib; sourceTree = "<group>"; };
+		8FE83F562151048500116E82 /* XLScreenForceRotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLScreenForceRotation.h; sourceTree = "<group>"; };
+		8FE83F572151048500116E82 /* XLScreenForceRotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLScreenForceRotation.m; sourceTree = "<group>"; };
+		8FE83F582151048500116E82 /* XLScreenForceRotation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLScreenForceRotation.xib; sourceTree = "<group>"; };
+		8FE83F5E215105F200116E82 /* XLOnlyTextTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLOnlyTextTable.h; sourceTree = "<group>"; };
+		8FE83F5F215105F200116E82 /* XLOnlyTextTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLOnlyTextTable.m; sourceTree = "<group>"; };
+		8FE83F612151209F00116E82 /* XLOnlyTextTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLOnlyTextTable.xib; sourceTree = "<group>"; };
+		8FE83F63215123F600116E82 /* XLOnlyTextTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLOnlyTextTableVC.h; sourceTree = "<group>"; };
+		8FE83F64215123F600116E82 /* XLOnlyTextTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLOnlyTextTableVC.m; sourceTree = "<group>"; };
+		8FE83F65215123F600116E82 /* XLOnlyTextTableVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLOnlyTextTableVC.xib; sourceTree = "<group>"; };
+		8FE83F682151248C00116E82 /* XLOnlyTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLOnlyTextCell.h; sourceTree = "<group>"; };
+		8FE83F692151248C00116E82 /* XLOnlyTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLOnlyTextCell.m; sourceTree = "<group>"; };
+		8FE83F6A2151248C00116E82 /* XLOnlyTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLOnlyTextCell.xib; sourceTree = "<group>"; };
+		8FF4CE462148A7D000CD15F1 /* XLFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF4CE492148A7D000CD15F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FF4CE4A2148A7D000CD15F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FF4CE4C2148A7D000CD15F1 /* XLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLViewController.h; sourceTree = "<group>"; };
+		8FF4CE4D2148A7D000CD15F1 /* XLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLViewController.m; sourceTree = "<group>"; };
+		8FF4CE502148A7D000CD15F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FF4CE522148A7D200CD15F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FF4CE552148A7D200CD15F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FF4CE572148A7D200CD15F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF4CE582148A7D200CD15F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FF4CE60214918E900CD15F1 /* XLBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLBaseVC.h; sourceTree = "<group>"; };
+		8FF4CE61214918E900CD15F1 /* XLBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLBaseVC.m; sourceTree = "<group>"; };
+		8FF4CE632149193100CD15F1 /* XLUIViewAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLUIViewAnimationVC.h; sourceTree = "<group>"; };
+		8FF4CE642149193100CD15F1 /* XLUIViewAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLUIViewAnimationVC.m; sourceTree = "<group>"; };
+		8FF4CE662149198900CD15F1 /* XLUIViewAnimationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLUIViewAnimationVC.xib; sourceTree = "<group>"; };
+		8FF4CE682149285A00CD15F1 /* XLVCTBCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLVCTBCell.h; sourceTree = "<group>"; };
+		8FF4CE692149285A00CD15F1 /* XLVCTBCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLVCTBCell.m; sourceTree = "<group>"; };
+		8FF4CE6A2149285A00CD15F1 /* XLVCTBCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLVCTBCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FF4CE432148A7D000CD15F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E640627671955659D29EBDFB /* libPods-XLFramework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F117EAC2195205300AAC72F /* 设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				8F117EAD2195206000AAC72F /* 工厂模式 */,
+			);
+			path = "设计模式";
+			sourceTree = "<group>";
+		};
+		8F117EAD2195206000AAC72F /* 工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				8F117EAE2195214000AAC72F /* XLFactoryPatternVC.h */,
+				8F117EAF2195214000AAC72F /* XLFactoryPatternVC.m */,
+				8F117EB02195214000AAC72F /* XLFactoryPatternVC.xib */,
+				8F117EB32195226F00AAC72F /* XLFactoryPatternBaseCell.h */,
+				8F117EB42195226F00AAC72F /* XLFactoryPatternBaseCell.m */,
+				8F117EB62195229000AAC72F /* XLFactoryPatternCellA.h */,
+				8F117EB72195229000AAC72F /* XLFactoryPatternCellA.m */,
+				8F117EB9219522A000AAC72F /* XLFactoryPatternCellB.h */,
+				8F117EBA219522A000AAC72F /* XLFactoryPatternCellB.m */,
+				8F117EBC219522B600AAC72F /* XLFactoryPatternCellC.h */,
+				8F117EBD219522B600AAC72F /* XLFactoryPatternCellC.m */,
+				8F15441321A2B86E00F0DE02 /* XLFactoryPatternConfigureModel.h */,
+				8F15441421A2B86E00F0DE02 /* XLFactoryPatternConfigureModel.m */,
+			);
+			path = "工厂模式";
+			sourceTree = "<group>";
+		};
+		8F117EBF21952B5200AAC72F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		8F117EC021952C4500AAC72F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8F117EC121952CB300AAC72F /* XLClassUtils.h */,
+				8F117EC221952CB300AAC72F /* XLClassUtils.m */,
+				8F892F0721ABF90B0004C323 /* XLTouchID.h */,
+				8F892F0621ABF90B0004C323 /* XLTouchID.m */,
+				8F5C0B9021AD350000DD7D64 /* XLBluetooth.h */,
+				8F5C0B9121AD350000DD7D64 /* XLBluetooth.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8F15441621A2D01E00F0DE02 /* 资源 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "资源";
+			sourceTree = "<group>";
+		};
+		8F3522DE214FC5B800824F5B /* 视频 */ = {
+			isa = PBXGroup;
+			children = (
+				8F3522E2214FC67A00824F5B /* XLStreamPlayVC.h */,
+				8F3522E3214FC67A00824F5B /* XLStreamPlayVC.m */,
+				8F3522E4214FC67A00824F5B /* XLStreamPlayVC.xib */,
+			);
+			path = "视频";
+			sourceTree = "<group>";
+		};
+		8F3522DF214FC5BB00824F5B /* 播放 */ = {
+			isa = PBXGroup;
+			children = (
+				8F3522E0214FC5D500824F5B /* 音频 */,
+				8F3522DE214FC5B800824F5B /* 视频 */,
+			);
+			path = "播放";
+			sourceTree = "<group>";
+		};
+		8F3522E0214FC5D500824F5B /* 音频 */ = {
+			isa = PBXGroup;
+			children = (
+				8F3522D9214FB25500824F5B /* XLMusicPlayerVC.h */,
+				8F3522DA214FB25500824F5B /* XLMusicPlayerVC.m */,
+				8F3522DC214FC16B00824F5B /* XLMusicPlayerVC.xib */,
+			);
+			path = "音频";
+			sourceTree = "<group>";
+		};
+		8F3522E1214FC5EC00824F5B /* 引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				8FE526EF2149FFE800C104C4 /* TutorialPages.h */,
+				8FE526EE2149FFE800C104C4 /* TutorialPages.m */,
+				8FE526EB2149FFB200C104C4 /* XLTutoriaPagesVC.h */,
+				8FE526EC2149FFB200C104C4 /* XLTutoriaPagesVC.m */,
+			);
+			path = "引导页";
+			sourceTree = "<group>";
+		};
+		8F5C0B9321AD35AE00DD7D64 /* 蓝牙 */ = {
+			isa = PBXGroup;
+			children = (
+				8F5C0B9421AD35E600DD7D64 /* XLBluetoothVC.h */,
+				8F5C0B9521AD35E600DD7D64 /* XLBluetoothVC.m */,
+				8F5C0B9621AD35E600DD7D64 /* XLBluetoothVC.xib */,
+			);
+			path = "蓝牙";
+			sourceTree = "<group>";
+		};
+		8F5C852E214E50B9002B33E3 /* 宏定义 */ = {
+			isa = PBXGroup;
+			children = (
+				8FE52725214A635500C104C4 /* XLUtility.h */,
+				8F5C852B214E23F3002B33E3 /* XLAppConfig.h */,
+				8F5C852C214E2436002B33E3 /* XLCommonExtern.h */,
+				8F5C852D214E24AC002B33E3 /* XLNetworkAPI.h */,
+			);
+			path = "宏定义";
+			sourceTree = "<group>";
+		};
+		8F5C852F214E514A002B33E3 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4CE60214918E900CD15F1 /* XLBaseVC.h */,
+				8FF4CE61214918E900CD15F1 /* XLBaseVC.m */,
+				8FE83F63215123F600116E82 /* XLOnlyTextTableVC.h */,
+				8FE83F64215123F600116E82 /* XLOnlyTextTableVC.m */,
+				8FE83F65215123F600116E82 /* XLOnlyTextTableVC.xib */,
+				8FE83F682151248C00116E82 /* XLOnlyTextCell.h */,
+				8FE83F692151248C00116E82 /* XLOnlyTextCell.m */,
+				8FE83F6A2151248C00116E82 /* XLOnlyTextCell.xib */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		8F5C8530214E51EF002B33E3 /* 数据源 */ = {
+			isa = PBXGroup;
+			children = (
+				8F5C8531214E522C002B33E3 /* NetworkData.json */,
+				8F5C8532214E522C002B33E3 /* VCClassName.plist */,
+			);
+			path = "数据源";
+			sourceTree = "<group>";
+		};
+		8F892EFC21ABDCE30004C323 /* 指纹识别 */ = {
+			isa = PBXGroup;
+			children = (
+				8F892F0121ABF7160004C323 /* XLTouchIDVC.h */,
+				8F892F0221ABF7160004C323 /* XLTouchIDVC.m */,
+				8F892F0321ABF7160004C323 /* XLTouchIDVC.xib */,
+			);
+			path = "指纹识别";
+			sourceTree = "<group>";
+		};
+		8FE526EA2149FF7E00C104C4 /* 组件 */ = {
+			isa = PBXGroup;
+			children = (
+				8F892EFC21ABDCE30004C323 /* 指纹识别 */,
+				8F117EAC2195205300AAC72F /* 设计模式 */,
+				8FE83F4B2150F89900116E82 /* 屏幕旋转 */,
+				8FF4CE5F2149186900CD15F1 /* 视图动画 */,
+				8F3522E1214FC5EC00824F5B /* 引导页 */,
+				8F5C0B9321AD35AE00DD7D64 /* 蓝牙 */,
+				8F3522DF214FC5BB00824F5B /* 播放 */,
+			);
+			path = "组件";
+			sourceTree = "<group>";
+		};
+		8FE83F4B2150F89900116E82 /* 屏幕旋转 */ = {
+			isa = PBXGroup;
+			children = (
+				8FE83F4C2150F8E600116E82 /* XLScreenRotationVC.h */,
+				8FE83F4D2150F8E600116E82 /* XLScreenRotationVC.m */,
+				8FE83F4E2150F8E600116E82 /* XLScreenRotationVC.xib */,
+				8FE83F512151043400116E82 /* XLScreenAutomaticRotationVC.h */,
+				8FE83F522151043400116E82 /* XLScreenAutomaticRotationVC.m */,
+				8FE83F532151043400116E82 /* XLScreenAutomaticRotationVC.xib */,
+				8FE83F562151048500116E82 /* XLScreenForceRotation.h */,
+				8FE83F572151048500116E82 /* XLScreenForceRotation.m */,
+				8FE83F582151048500116E82 /* XLScreenForceRotation.xib */,
+			);
+			path = "屏幕旋转";
+			sourceTree = "<group>";
+		};
+		8FE83F5B2151053300116E82 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				8FE83F5D2151055A00116E82 /* UILable */,
+				8FE83F5C2151055600116E82 /* UITableview */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		8FE83F5C2151055600116E82 /* UITableview */ = {
+			isa = PBXGroup;
+			children = (
+				8FE83F5E215105F200116E82 /* XLOnlyTextTable.h */,
+				8FE83F5F215105F200116E82 /* XLOnlyTextTable.m */,
+				8FE83F612151209F00116E82 /* XLOnlyTextTable.xib */,
+			);
+			path = UITableview;
+			sourceTree = "<group>";
+		};
+		8FE83F5D2151055A00116E82 /* UILable */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UILable;
+			sourceTree = "<group>";
+		};
+		8FF4CE3D2148A7D000CD15F1 = {
+			isa = PBXGroup;
+			children = (
+				8FF4CE482148A7D000CD15F1 /* XLFramework */,
+				8FF4CE472148A7D000CD15F1 /* Products */,
+				EB512E1F386BFECA488571F0 /* Pods */,
+				E9C67490D05F0C727E0D9B79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8FF4CE472148A7D000CD15F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4CE462148A7D000CD15F1 /* XLFramework.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FF4CE482148A7D000CD15F1 /* XLFramework */ = {
+			isa = PBXGroup;
+			children = (
+				8F15441621A2D01E00F0DE02 /* 资源 */,
+				8F117EC021952C4500AAC72F /* Utils */,
+				8F117EBF21952B5200AAC72F /* Category */,
+				8FE83F5B2151053300116E82 /* UIView */,
+				8F5C8530214E51EF002B33E3 /* 数据源 */,
+				8F5C852F214E514A002B33E3 /* BaseVC */,
+				8FE526EA2149FF7E00C104C4 /* 组件 */,
+				8FF4CE492148A7D000CD15F1 /* AppDelegate.h */,
+				8FF4CE4A2148A7D000CD15F1 /* AppDelegate.m */,
+				8FF4CE4C2148A7D000CD15F1 /* XLViewController.h */,
+				8FF4CE4D2148A7D000CD15F1 /* XLViewController.m */,
+				8FF4CE682149285A00CD15F1 /* XLVCTBCell.h */,
+				8FF4CE692149285A00CD15F1 /* XLVCTBCell.m */,
+				8FF4CE6A2149285A00CD15F1 /* XLVCTBCell.xib */,
+				8FF4CE4F2148A7D000CD15F1 /* Main.storyboard */,
+				8FE526F3214A01AB00C104C4 /* PrefixHeader.pch */,
+				8F5C852E214E50B9002B33E3 /* 宏定义 */,
+				8FF4CE522148A7D200CD15F1 /* Assets.xcassets */,
+				8FF4CE542148A7D200CD15F1 /* LaunchScreen.storyboard */,
+				8FF4CE572148A7D200CD15F1 /* Info.plist */,
+				8FF4CE582148A7D200CD15F1 /* main.m */,
+			);
+			path = XLFramework;
+			sourceTree = "<group>";
+		};
+		8FF4CE5F2149186900CD15F1 /* 视图动画 */ = {
+			isa = PBXGroup;
+			children = (
+				8FF4CE632149193100CD15F1 /* XLUIViewAnimationVC.h */,
+				8FF4CE642149193100CD15F1 /* XLUIViewAnimationVC.m */,
+				8FF4CE662149198900CD15F1 /* XLUIViewAnimationVC.xib */,
+			);
+			path = "视图动画";
+			sourceTree = "<group>";
+		};
+		E9C67490D05F0C727E0D9B79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AB570074A147DF1FBBA7C2E /* libPods-XLFramework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB512E1F386BFECA488571F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17056B4674E9DB72A6D49AE7 /* Pods-XLFramework.debug.xcconfig */,
+				59FCAD1B13130596D5864D51 /* Pods-XLFramework.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FF4CE452148A7D000CD15F1 /* XLFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF4CE5C2148A7D200CD15F1 /* Build configuration list for PBXNativeTarget "XLFramework" */;
+			buildPhases = (
+				C758C632DD8A3E75FC2BD6CC /* [CP] Check Pods Manifest.lock */,
+				8FF4CE422148A7D000CD15F1 /* Sources */,
+				8FF4CE432148A7D000CD15F1 /* Frameworks */,
+				8FF4CE442148A7D000CD15F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XLFramework;
+			productName = XLFramework;
+			productReference = 8FF4CE462148A7D000CD15F1 /* XLFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FF4CE3E2148A7D000CD15F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jack Wang";
+				TargetAttributes = {
+					8FF4CE452148A7D000CD15F1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 8FF4CE412148A7D000CD15F1 /* Build configuration list for PBXProject "XLFramework" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FF4CE3D2148A7D000CD15F1;
+			productRefGroup = 8FF4CE472148A7D000CD15F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FF4CE452148A7D000CD15F1 /* XLFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FF4CE442148A7D000CD15F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE83F6C2151248C00116E82 /* XLOnlyTextCell.xib in Resources */,
+				8FE83F552151043400116E82 /* XLScreenAutomaticRotationVC.xib in Resources */,
+				8F892F0521ABF7160004C323 /* XLTouchIDVC.xib in Resources */,
+				8FF4CE562148A7D200CD15F1 /* LaunchScreen.storyboard in Resources */,
+				8F3522E6214FC67A00824F5B /* XLStreamPlayVC.xib in Resources */,
+				8FF4CE6C2149285A00CD15F1 /* XLVCTBCell.xib in Resources */,
+				8F5C8533214E522C002B33E3 /* NetworkData.json in Resources */,
+				8F5C0B9821AD35E600DD7D64 /* XLBluetoothVC.xib in Resources */,
+				8FE83F5A2151048500116E82 /* XLScreenForceRotation.xib in Resources */,
+				8FF4CE532148A7D200CD15F1 /* Assets.xcassets in Resources */,
+				8F5C8534214E522C002B33E3 /* VCClassName.plist in Resources */,
+				8FE83F67215123F600116E82 /* XLOnlyTextTableVC.xib in Resources */,
+				8F117EB22195214000AAC72F /* XLFactoryPatternVC.xib in Resources */,
+				8FF4CE672149198900CD15F1 /* XLUIViewAnimationVC.xib in Resources */,
+				8FE83F622151209F00116E82 /* XLOnlyTextTable.xib in Resources */,
+				8FF4CE512148A7D000CD15F1 /* Main.storyboard in Resources */,
+				8FE83F502150F8E600116E82 /* XLScreenRotationVC.xib in Resources */,
+				8F3522DD214FC16B00824F5B /* XLMusicPlayerVC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C758C632DD8A3E75FC2BD6CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FF4CE422148A7D000CD15F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE83F542151043400116E82 /* XLScreenAutomaticRotationVC.m in Sources */,
+				8FF4CE4E2148A7D000CD15F1 /* XLViewController.m in Sources */,
+				8F117EBB219522A000AAC72F /* XLFactoryPatternCellB.m in Sources */,
+				8F117EB82195229000AAC72F /* XLFactoryPatternCellA.m in Sources */,
+				8F892F0821ABF90B0004C323 /* XLTouchID.m in Sources */,
+				8FF4CE592148A7D200CD15F1 /* main.m in Sources */,
+				8F3522E5214FC67A00824F5B /* XLStreamPlayVC.m in Sources */,
+				8F117EB12195214000AAC72F /* XLFactoryPatternVC.m in Sources */,
+				8FF4CE6B2149285A00CD15F1 /* XLVCTBCell.m in Sources */,
+				8FF4CE652149193100CD15F1 /* XLUIViewAnimationVC.m in Sources */,
+				8FE83F6B2151248C00116E82 /* XLOnlyTextCell.m in Sources */,
+				8F5C0B9721AD35E600DD7D64 /* XLBluetoothVC.m in Sources */,
+				8F117EC321952CB300AAC72F /* XLClassUtils.m in Sources */,
+				8F5C0B9221AD350000DD7D64 /* XLBluetooth.m in Sources */,
+				8F892F0421ABF7160004C323 /* XLTouchIDVC.m in Sources */,
+				8F15441521A2B86E00F0DE02 /* XLFactoryPatternConfigureModel.m in Sources */,
+				8FE83F4F2150F8E600116E82 /* XLScreenRotationVC.m in Sources */,
+				8F117EBE219522B600AAC72F /* XLFactoryPatternCellC.m in Sources */,
+				8FF4CE62214918E900CD15F1 /* XLBaseVC.m in Sources */,
+				8F117EB52195226F00AAC72F /* XLFactoryPatternBaseCell.m in Sources */,
+				8FE83F592151048500116E82 /* XLScreenForceRotation.m in Sources */,
+				8FE83F66215123F600116E82 /* XLOnlyTextTableVC.m in Sources */,
+				8F3522DB214FB25500824F5B /* XLMusicPlayerVC.m in Sources */,
+				8FE526ED2149FFB200C104C4 /* XLTutoriaPagesVC.m in Sources */,
+				8FE526F02149FFE800C104C4 /* TutorialPages.m in Sources */,
+				8FE83F60215105F200116E82 /* XLOnlyTextTable.m in Sources */,
+				8FF4CE4B2148A7D000CD15F1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FF4CE4F2148A7D000CD15F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FF4CE502148A7D000CD15F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FF4CE542148A7D200CD15F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FF4CE552148A7D200CD15F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FF4CE5A2148A7D200CD15F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XLFramework/PrefixHeader.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FF4CE5B2148A7D200CD15F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XLFramework/PrefixHeader.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FF4CE5D2148A7D200CD15F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17056B4674E9DB72A6D49AE7 /* Pods-XLFramework.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N48F6T4B7E;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XLFramework/PrefixHeader.pch";
+				INFOPLIST_FILE = XLFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-42836250-qq.com.XLFramework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FF4CE5E2148A7D200CD15F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59FCAD1B13130596D5864D51 /* Pods-XLFramework.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N48F6T4B7E;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XLFramework/PrefixHeader.pch";
+				INFOPLIST_FILE = XLFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-42836250-qq.com.XLFramework";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FF4CE412148A7D000CD15F1 /* Build configuration list for PBXProject "XLFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF4CE5A2148A7D200CD15F1 /* Debug */,
+				8FF4CE5B2148A7D200CD15F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF4CE5C2148A7D200CD15F1 /* Build configuration list for PBXNativeTarget "XLFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF4CE5D2148A7D200CD15F1 /* Debug */,
+				8FF4CE5E2148A7D200CD15F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FF4CE3E2148A7D000CD15F1 /* Project object */;
+}

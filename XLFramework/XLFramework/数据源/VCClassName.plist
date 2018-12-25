@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>vcClassName</key>
+		<string>XLFactoryPatternVC</string>
+		<key>cellContent</key>
+		<string>工厂模式</string>
+	</dict>
+	<dict>
+		<key>vcClassName</key>
+		<string>XLScreenRotationVC</string>
+		<key>cellContent</key>
+		<string>屏幕旋转</string>
+	</dict>
+	<dict>
+		<key>vcClassName</key>
+		<string>XLStreamPlayVC</string>
+		<key>cellContent</key>
+		<string>播放器</string>
+	</dict>
+	<dict>
+		<key>vcClassName</key>
+		<string>XLUIViewAnimationVC</string>
+		<key>cellContent</key>
+		<string>UIView动画1.当前ios中开发蓝牙所运使用的系统库是。
+2.蓝牙外设必需为4.0及以上(2.0需要MFI认证)，否则无法开发，蓝牙4.0设施由于低耗电，所以也叫做BLE。
+3.CoreBluetooth框架的核心其实是两个东西，peripheral和central, 能了解成外设和中心，就是你的苹果手机就是中心，外部蓝牙称为外设。
+4.服务和特征(service characteristic)：简而言之，外部蓝牙中它有若干个服务service（服务你能了解为蓝牙所拥有的可以力），而每个服务service下拥有若干个特征characteristic（特征你能了解为解释这个服务的属性）。
+5.Descriptor（形容）使用来形容characteristic变量的属性。例如，一个descriptor能规定一个可读的形容，或者者一个characteristic变量可接受的范围，或者者一个characteristic变量特定的单位。</string>
+	</dict>
+	<dict>
+		<key>vcClassName</key>
+		<string>XLTouchIDVC</string>
+		<key>cellContent</key>
+		<string>指纹识别</string>
+	</dict>
+	<dict>
+		<key>vcClassName</key>
+		<string>XLBluetoothVC</string>
+		<key>cellContent</key>
+		<string>蓝牙</string>
+	</dict>
+</array>
+</plist>

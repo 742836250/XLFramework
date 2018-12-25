@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  XLFramework
+//
+//  Created by Jack Wang on 2018/9/13.
+//  Copyright © 2018年 Jack Wang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "XLUtility.h"
+#import "XLAppConfig.h"
+#import "XLCommonExtern.h"
+#import "XLNetworkAPI.h"
+#import <Masonry.h>
+#import <AFNetworking.h>
+#import <YYImage.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
