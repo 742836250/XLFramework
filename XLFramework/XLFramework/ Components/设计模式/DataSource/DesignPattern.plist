@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>MVP</key>
+		<string>https://www.jianshu.com/p/f6fd9656f619</string>
+	</dict>
+	<dict>
+		<key>MVVM</key>
+		<string>https://www.jianshu.com/p/f1d0f7f01130</string>
+	</dict>
+	<dict>
+		<key>MVC</key>
+		<string>http://www.cocoachina.com/ios/20180727/24340.html</string>
+	</dict>
+	<dict>
+		<key>工厂模式</key>
+		<string>http://www.cocoachina.com/ios/20171226/21654.html</string>
+	</dict>
+</array>
+</plist>

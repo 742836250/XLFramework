@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zfz-Vi-3Mj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Zfz-Vi-3Mj">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -190,6 +189,10 @@
         <scene sceneID="izU-fe-XxR">
             <objects>
                 <viewController id="A9m-1T-hdd" customClass="XLViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rJt-LH-ogl"/>
+                        <viewControllerLayoutGuide type="bottom" id="gEu-S7-D1M"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="lKm-Lw-gAC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -205,16 +208,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="AVX-Gx-mEp" firstAttribute="leading" secondItem="xNX-Cc-JD2" secondAttribute="leading" id="3eH-eT-T2W"/>
-                            <constraint firstItem="AVX-Gx-mEp" firstAttribute="top" secondItem="xNX-Cc-JD2" secondAttribute="top" id="3r5-xk-Nqs"/>
-                            <constraint firstItem="xNX-Cc-JD2" firstAttribute="bottom" secondItem="AVX-Gx-mEp" secondAttribute="bottom" id="XC1-H0-8Dt"/>
-                            <constraint firstItem="xNX-Cc-JD2" firstAttribute="trailing" secondItem="AVX-Gx-mEp" secondAttribute="trailing" id="jAp-SE-4a8"/>
+                            <constraint firstItem="AVX-Gx-mEp" firstAttribute="leading" secondItem="lKm-Lw-gAC" secondAttribute="leading" id="3eH-eT-T2W"/>
+                            <constraint firstItem="AVX-Gx-mEp" firstAttribute="top" secondItem="rJt-LH-ogl" secondAttribute="bottom" id="3r5-xk-Nqs"/>
+                            <constraint firstItem="gEu-S7-D1M" firstAttribute="top" secondItem="AVX-Gx-mEp" secondAttribute="bottom" id="XC1-H0-8Dt"/>
+                            <constraint firstAttribute="trailing" secondItem="AVX-Gx-mEp" secondAttribute="trailing" id="jAp-SE-4a8"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="xNX-Cc-JD2"/>
                     </view>
                     <navigationItem key="navigationItem" title="XLFramework" id="wcJ-K1-j5w"/>
                     <connections>
-                        <outlet property="mainTabView" destination="AVX-Gx-mEp" id="PG5-9b-9qt"/>
+                        <outlet property="xl_mainTabView" destination="AVX-Gx-mEp" id="57T-Qe-Qsv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1D0-vc-G5i" userLabel="First Responder" sceneMemberID="firstResponder"/>

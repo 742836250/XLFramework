@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F08B9E021D712090038C551 /* UIViewController+XLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F08B9DE21D712090038C551 /* UIViewController+XLAlertView.m */; };
+		8F08B9E121D712090038C551 /* XLAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F08B9DF21D712090038C551 /* XLAlertView.m */; };
 		8F117EB12195214000AAC72F /* XLFactoryPatternVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F117EAF2195214000AAC72F /* XLFactoryPatternVC.m */; };
 		8F117EB22195214000AAC72F /* XLFactoryPatternVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F117EB02195214000AAC72F /* XLFactoryPatternVC.xib */; };
 		8F117EB52195226F00AAC72F /* XLFactoryPatternBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F117EB42195226F00AAC72F /* XLFactoryPatternBaseCell.m */; };
@@ -24,9 +26,16 @@
 		8F5C0B9821AD35E600DD7D64 /* XLBluetoothVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F5C0B9621AD35E600DD7D64 /* XLBluetoothVC.xib */; };
 		8F5C8533214E522C002B33E3 /* NetworkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 8F5C8531214E522C002B33E3 /* NetworkData.json */; };
 		8F5C8534214E522C002B33E3 /* VCClassName.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F5C8532214E522C002B33E3 /* VCClassName.plist */; };
+		8F7921DD21D47281002C1BA5 /* XLBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7921DC21D47281002C1BA5 /* XLBaseCell.m */; };
+		8F7921E021D47750002C1BA5 /* XLOnlyTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F7921DF21D47750002C1BA5 /* XLOnlyTextCell.m */; };
 		8F892F0421ABF7160004C323 /* XLTouchIDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F892F0221ABF7160004C323 /* XLTouchIDVC.m */; };
 		8F892F0521ABF7160004C323 /* XLTouchIDVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F892F0321ABF7160004C323 /* XLTouchIDVC.xib */; };
 		8F892F0821ABF90B0004C323 /* XLTouchID.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F892F0621ABF90B0004C323 /* XLTouchID.m */; };
+		8F9BB0BC21D1D88100C5717C /* XLWebViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9BB0BB21D1D88100C5717C /* XLWebViewPresenter.m */; };
+		8F9BB0C021D2076A00C5717C /* XLWebViewBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9BB0BE21D2076A00C5717C /* XLWebViewBaseVC.m */; };
+		8FB0C15F21D5CBAE0071EEC6 /* DesignPattern.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FB0C15E21D5CBAE0071EEC6 /* DesignPattern.plist */; };
+		8FB0C16221D5CD550071EEC6 /* XLDesignPatternVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB0C16121D5CD550071EEC6 /* XLDesignPatternVC.m */; };
+		8FB0C16521D62A550071EEC6 /* UINavigationController+StatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FB0C16321D62A550071EEC6 /* UINavigationController+StatusBar.m */; };
 		8FE526ED2149FFB200C104C4 /* XLTutoriaPagesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE526EC2149FFB200C104C4 /* XLTutoriaPagesVC.m */; };
 		8FE526F02149FFE800C104C4 /* TutorialPages.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE526EE2149FFE800C104C4 /* TutorialPages.m */; };
 		8FE83F4F2150F8E600116E82 /* XLScreenRotationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE83F4D2150F8E600116E82 /* XLScreenRotationVC.m */; };
@@ -35,12 +44,7 @@
 		8FE83F552151043400116E82 /* XLScreenAutomaticRotationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE83F532151043400116E82 /* XLScreenAutomaticRotationVC.xib */; };
 		8FE83F592151048500116E82 /* XLScreenForceRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE83F572151048500116E82 /* XLScreenForceRotation.m */; };
 		8FE83F5A2151048500116E82 /* XLScreenForceRotation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE83F582151048500116E82 /* XLScreenForceRotation.xib */; };
-		8FE83F60215105F200116E82 /* XLOnlyTextTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE83F5F215105F200116E82 /* XLOnlyTextTable.m */; };
-		8FE83F622151209F00116E82 /* XLOnlyTextTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE83F612151209F00116E82 /* XLOnlyTextTable.xib */; };
 		8FE83F66215123F600116E82 /* XLOnlyTextTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE83F64215123F600116E82 /* XLOnlyTextTableVC.m */; };
-		8FE83F67215123F600116E82 /* XLOnlyTextTableVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE83F65215123F600116E82 /* XLOnlyTextTableVC.xib */; };
-		8FE83F6B2151248C00116E82 /* XLOnlyTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FE83F692151248C00116E82 /* XLOnlyTextCell.m */; };
-		8FE83F6C2151248C00116E82 /* XLOnlyTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FE83F6A2151248C00116E82 /* XLOnlyTextCell.xib */; };
 		8FF4CE4B2148A7D000CD15F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4CE4A2148A7D000CD15F1 /* AppDelegate.m */; };
 		8FF4CE4E2148A7D000CD15F1 /* XLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4CE4D2148A7D000CD15F1 /* XLViewController.m */; };
 		8FF4CE512148A7D000CD15F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF4CE4F2148A7D000CD15F1 /* Main.storyboard */; };
@@ -49,7 +53,6 @@
 		8FF4CE592148A7D200CD15F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4CE582148A7D200CD15F1 /* main.m */; };
 		8FF4CE62214918E900CD15F1 /* XLBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4CE61214918E900CD15F1 /* XLBaseVC.m */; };
 		8FF4CE652149193100CD15F1 /* XLUIViewAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4CE642149193100CD15F1 /* XLUIViewAnimationVC.m */; };
-		8FF4CE672149198900CD15F1 /* XLUIViewAnimationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FF4CE662149198900CD15F1 /* XLUIViewAnimationVC.xib */; };
 		8FF4CE6B2149285A00CD15F1 /* XLVCTBCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF4CE692149285A00CD15F1 /* XLVCTBCell.m */; };
 		8FF4CE6C2149285A00CD15F1 /* XLVCTBCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8FF4CE6A2149285A00CD15F1 /* XLVCTBCell.xib */; };
 		E640627671955659D29EBDFB /* libPods-XLFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB570074A147DF1FBBA7C2E /* libPods-XLFramework.a */; };
@@ -59,6 +62,10 @@
 		17056B4674E9DB72A6D49AE7 /* Pods-XLFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFramework.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XLFramework/Pods-XLFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		4AB570074A147DF1FBBA7C2E /* libPods-XLFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XLFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FCAD1B13130596D5864D51 /* Pods-XLFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLFramework.release.xcconfig"; path = "Pods/Target Support Files/Pods-XLFramework/Pods-XLFramework.release.xcconfig"; sourceTree = "<group>"; };
+		8F08B9DC21D712090038C551 /* XLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLAlertView.h; sourceTree = "<group>"; };
+		8F08B9DD21D712090038C551 /* UIViewController+XLAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+XLAlertView.h"; sourceTree = "<group>"; };
+		8F08B9DE21D712090038C551 /* UIViewController+XLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+XLAlertView.m"; sourceTree = "<group>"; };
+		8F08B9DF21D712090038C551 /* XLAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLAlertView.m; sourceTree = "<group>"; };
 		8F117EAE2195214000AAC72F /* XLFactoryPatternVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLFactoryPatternVC.h; sourceTree = "<group>"; };
 		8F117EAF2195214000AAC72F /* XLFactoryPatternVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLFactoryPatternVC.m; sourceTree = "<group>"; };
 		8F117EB02195214000AAC72F /* XLFactoryPatternVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLFactoryPatternVC.xib; sourceTree = "<group>"; };
@@ -90,11 +97,26 @@
 		8F5C852D214E24AC002B33E3 /* XLNetworkAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLNetworkAPI.h; sourceTree = "<group>"; };
 		8F5C8531214E522C002B33E3 /* NetworkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NetworkData.json; sourceTree = "<group>"; };
 		8F5C8532214E522C002B33E3 /* VCClassName.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = VCClassName.plist; sourceTree = "<group>"; };
+		8F7921DB21D47281002C1BA5 /* XLBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLBaseCell.h; sourceTree = "<group>"; };
+		8F7921DC21D47281002C1BA5 /* XLBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLBaseCell.m; sourceTree = "<group>"; };
+		8F7921DE21D47750002C1BA5 /* XLOnlyTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLOnlyTextCell.h; sourceTree = "<group>"; };
+		8F7921DF21D47750002C1BA5 /* XLOnlyTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLOnlyTextCell.m; sourceTree = "<group>"; };
+		8F7921E121D47A53002C1BA5 /* XLViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLViewProtocol.h; sourceTree = "<group>"; };
 		8F892F0121ABF7160004C323 /* XLTouchIDVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLTouchIDVC.h; sourceTree = "<group>"; };
 		8F892F0221ABF7160004C323 /* XLTouchIDVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLTouchIDVC.m; sourceTree = "<group>"; };
 		8F892F0321ABF7160004C323 /* XLTouchIDVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLTouchIDVC.xib; sourceTree = "<group>"; };
 		8F892F0621ABF90B0004C323 /* XLTouchID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTouchID.m; sourceTree = "<group>"; };
 		8F892F0721ABF90B0004C323 /* XLTouchID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTouchID.h; sourceTree = "<group>"; };
+		8F9BB0BA21D1D88100C5717C /* XLWebViewPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLWebViewPresenter.h; sourceTree = "<group>"; };
+		8F9BB0BB21D1D88100C5717C /* XLWebViewPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLWebViewPresenter.m; sourceTree = "<group>"; };
+		8F9BB0BD21D2076A00C5717C /* XLWebViewBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLWebViewBaseVC.h; sourceTree = "<group>"; };
+		8F9BB0BE21D2076A00C5717C /* XLWebViewBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLWebViewBaseVC.m; sourceTree = "<group>"; };
+		8F9BB0C321D2115F00C5717C /* XLWebViewPresenterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLWebViewPresenterProtocol.h; sourceTree = "<group>"; };
+		8FB0C15E21D5CBAE0071EEC6 /* DesignPattern.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DesignPattern.plist; sourceTree = "<group>"; };
+		8FB0C16021D5CD550071EEC6 /* XLDesignPatternVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLDesignPatternVC.h; sourceTree = "<group>"; };
+		8FB0C16121D5CD550071EEC6 /* XLDesignPatternVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLDesignPatternVC.m; sourceTree = "<group>"; };
+		8FB0C16321D62A550071EEC6 /* UINavigationController+StatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StatusBar.m"; sourceTree = "<group>"; };
+		8FB0C16421D62A550071EEC6 /* UINavigationController+StatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StatusBar.h"; sourceTree = "<group>"; };
 		8FE526EB2149FFB200C104C4 /* XLTutoriaPagesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTutoriaPagesVC.h; sourceTree = "<group>"; };
 		8FE526EC2149FFB200C104C4 /* XLTutoriaPagesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTutoriaPagesVC.m; sourceTree = "<group>"; };
 		8FE526EE2149FFE800C104C4 /* TutorialPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TutorialPages.m; sourceTree = "<group>"; };
@@ -110,15 +132,8 @@
 		8FE83F562151048500116E82 /* XLScreenForceRotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLScreenForceRotation.h; sourceTree = "<group>"; };
 		8FE83F572151048500116E82 /* XLScreenForceRotation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLScreenForceRotation.m; sourceTree = "<group>"; };
 		8FE83F582151048500116E82 /* XLScreenForceRotation.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLScreenForceRotation.xib; sourceTree = "<group>"; };
-		8FE83F5E215105F200116E82 /* XLOnlyTextTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLOnlyTextTable.h; sourceTree = "<group>"; };
-		8FE83F5F215105F200116E82 /* XLOnlyTextTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLOnlyTextTable.m; sourceTree = "<group>"; };
-		8FE83F612151209F00116E82 /* XLOnlyTextTable.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLOnlyTextTable.xib; sourceTree = "<group>"; };
 		8FE83F63215123F600116E82 /* XLOnlyTextTableVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLOnlyTextTableVC.h; sourceTree = "<group>"; };
 		8FE83F64215123F600116E82 /* XLOnlyTextTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLOnlyTextTableVC.m; sourceTree = "<group>"; };
-		8FE83F65215123F600116E82 /* XLOnlyTextTableVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLOnlyTextTableVC.xib; sourceTree = "<group>"; };
-		8FE83F682151248C00116E82 /* XLOnlyTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLOnlyTextCell.h; sourceTree = "<group>"; };
-		8FE83F692151248C00116E82 /* XLOnlyTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLOnlyTextCell.m; sourceTree = "<group>"; };
-		8FE83F6A2151248C00116E82 /* XLOnlyTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLOnlyTextCell.xib; sourceTree = "<group>"; };
 		8FF4CE462148A7D000CD15F1 /* XLFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF4CE492148A7D000CD15F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8FF4CE4A2148A7D000CD15F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -133,7 +148,6 @@
 		8FF4CE61214918E900CD15F1 /* XLBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLBaseVC.m; sourceTree = "<group>"; };
 		8FF4CE632149193100CD15F1 /* XLUIViewAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLUIViewAnimationVC.h; sourceTree = "<group>"; };
 		8FF4CE642149193100CD15F1 /* XLUIViewAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLUIViewAnimationVC.m; sourceTree = "<group>"; };
-		8FF4CE662149198900CD15F1 /* XLUIViewAnimationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLUIViewAnimationVC.xib; sourceTree = "<group>"; };
 		8FF4CE682149285A00CD15F1 /* XLVCTBCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLVCTBCell.h; sourceTree = "<group>"; };
 		8FF4CE692149285A00CD15F1 /* XLVCTBCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLVCTBCell.m; sourceTree = "<group>"; };
 		8FF4CE6A2149285A00CD15F1 /* XLVCTBCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XLVCTBCell.xib; sourceTree = "<group>"; };
@@ -154,7 +168,13 @@
 		8F117EAC2195205300AAC72F /* 设计模式 */ = {
 			isa = PBXGroup;
 			children = (
+				8F7921E221D4822A002C1BA5 /* DataSource */,
+				8F9BB0B821D1D4B300C5717C /* MVC */,
+				8F9BB0B721D1D4B100C5717C /* MVVM */,
+				8F9BB0B621D1D49B00C5717C /* MVP */,
 				8F117EAD2195206000AAC72F /* 工厂模式 */,
+				8FB0C16021D5CD550071EEC6 /* XLDesignPatternVC.h */,
+				8FB0C16121D5CD550071EEC6 /* XLDesignPatternVC.m */,
 			);
 			path = "设计模式";
 			sourceTree = "<group>";
@@ -182,6 +202,12 @@
 		8F117EBF21952B5200AAC72F /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				8FB0C16421D62A550071EEC6 /* UINavigationController+StatusBar.h */,
+				8FB0C16321D62A550071EEC6 /* UINavigationController+StatusBar.m */,
+				8F08B9DC21D712090038C551 /* XLAlertView.h */,
+				8F08B9DF21D712090038C551 /* XLAlertView.m */,
+				8F08B9DD21D712090038C551 /* UIViewController+XLAlertView.h */,
+				8F08B9DE21D712090038C551 /* UIViewController+XLAlertView.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -199,11 +225,11 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
-		8F15441621A2D01E00F0DE02 /* 资源 */ = {
+		8F15441621A2D01E00F0DE02 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "资源";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		8F3522DE214FC5B800824F5B /* 视频 */ = {
@@ -256,7 +282,7 @@
 			path = "蓝牙";
 			sourceTree = "<group>";
 		};
-		8F5C852E214E50B9002B33E3 /* 宏定义 */ = {
+		8F5C852E214E50B9002B33E3 /* Definition */ = {
 			isa = PBXGroup;
 			children = (
 				8FE52725214A635500C104C4 /* XLUtility.h */,
@@ -264,7 +290,7 @@
 				8F5C852C214E2436002B33E3 /* XLCommonExtern.h */,
 				8F5C852D214E24AC002B33E3 /* XLNetworkAPI.h */,
 			);
-			path = "宏定义";
+			path = Definition;
 			sourceTree = "<group>";
 		};
 		8F5C852F214E514A002B33E3 /* BaseVC */ = {
@@ -274,21 +300,56 @@
 				8FF4CE61214918E900CD15F1 /* XLBaseVC.m */,
 				8FE83F63215123F600116E82 /* XLOnlyTextTableVC.h */,
 				8FE83F64215123F600116E82 /* XLOnlyTextTableVC.m */,
-				8FE83F65215123F600116E82 /* XLOnlyTextTableVC.xib */,
-				8FE83F682151248C00116E82 /* XLOnlyTextCell.h */,
-				8FE83F692151248C00116E82 /* XLOnlyTextCell.m */,
-				8FE83F6A2151248C00116E82 /* XLOnlyTextCell.xib */,
+				8F9BB0BD21D2076A00C5717C /* XLWebViewBaseVC.h */,
+				8F9BB0BE21D2076A00C5717C /* XLWebViewBaseVC.m */,
+				8F7921E121D47A53002C1BA5 /* XLViewProtocol.h */,
 			);
 			path = BaseVC;
 			sourceTree = "<group>";
 		};
-		8F5C8530214E51EF002B33E3 /* 数据源 */ = {
+		8F5C8530214E51EF002B33E3 /* DataSource */ = {
 			isa = PBXGroup;
 			children = (
 				8F5C8531214E522C002B33E3 /* NetworkData.json */,
 				8F5C8532214E522C002B33E3 /* VCClassName.plist */,
 			);
-			path = "数据源";
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		8F7921D721D46DC8002C1BA5 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8F7921DA21D46E6F002C1BA5 /* Model */,
+				8F7921D921D46DF0002C1BA5 /* BaseView */,
+				8F5C852F214E514A002B33E3 /* BaseVC */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8F7921D921D46DF0002C1BA5 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				8F7921DB21D47281002C1BA5 /* XLBaseCell.h */,
+				8F7921DC21D47281002C1BA5 /* XLBaseCell.m */,
+				8F7921DE21D47750002C1BA5 /* XLOnlyTextCell.h */,
+				8F7921DF21D47750002C1BA5 /* XLOnlyTextCell.m */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		8F7921DA21D46E6F002C1BA5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8F7921E221D4822A002C1BA5 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				8FB0C15E21D5CBAE0071EEC6 /* DesignPattern.plist */,
+			);
+			path = DataSource;
 			sourceTree = "<group>";
 		};
 		8F892EFC21ABDCE30004C323 /* 指纹识别 */ = {
@@ -301,7 +362,39 @@
 			path = "指纹识别";
 			sourceTree = "<group>";
 		};
-		8FE526EA2149FF7E00C104C4 /* 组件 */ = {
+		8F9BB0B621D1D49B00C5717C /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				8F9BB0B921D1D83000C5717C /* Presenter */,
+			);
+			path = MVP;
+			sourceTree = "<group>";
+		};
+		8F9BB0B721D1D4B100C5717C /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		8F9BB0B821D1D4B300C5717C /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		8F9BB0B921D1D83000C5717C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8F9BB0BA21D1D88100C5717C /* XLWebViewPresenter.h */,
+				8F9BB0BB21D1D88100C5717C /* XLWebViewPresenter.m */,
+				8F9BB0C321D2115F00C5717C /* XLWebViewPresenterProtocol.h */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8FE526EA2149FF7E00C104C4 /*  Components */ = {
 			isa = PBXGroup;
 			children = (
 				8F892EFC21ABDCE30004C323 /* 指纹识别 */,
@@ -312,7 +405,7 @@
 				8F5C0B9321AD35AE00DD7D64 /* 蓝牙 */,
 				8F3522DF214FC5BB00824F5B /* 播放 */,
 			);
-			path = "组件";
+			path = " Components";
 			sourceTree = "<group>";
 		};
 		8FE83F4B2150F89900116E82 /* 屏幕旋转 */ = {
@@ -331,21 +424,18 @@
 			path = "屏幕旋转";
 			sourceTree = "<group>";
 		};
-		8FE83F5B2151053300116E82 /* UIView */ = {
+		8FE83F5B2151053300116E82 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				8FE83F5D2151055A00116E82 /* UILable */,
 				8FE83F5C2151055600116E82 /* UITableview */,
 			);
-			path = UIView;
+			path = View;
 			sourceTree = "<group>";
 		};
 		8FE83F5C2151055600116E82 /* UITableview */ = {
 			isa = PBXGroup;
 			children = (
-				8FE83F5E215105F200116E82 /* XLOnlyTextTable.h */,
-				8FE83F5F215105F200116E82 /* XLOnlyTextTable.m */,
-				8FE83F612151209F00116E82 /* XLOnlyTextTable.xib */,
 			);
 			path = UITableview;
 			sourceTree = "<group>";
@@ -378,13 +468,13 @@
 		8FF4CE482148A7D000CD15F1 /* XLFramework */ = {
 			isa = PBXGroup;
 			children = (
-				8F15441621A2D01E00F0DE02 /* 资源 */,
+				8F7921D721D46DC8002C1BA5 /* Base */,
+				8F15441621A2D01E00F0DE02 /* Resources */,
 				8F117EC021952C4500AAC72F /* Utils */,
 				8F117EBF21952B5200AAC72F /* Category */,
-				8FE83F5B2151053300116E82 /* UIView */,
-				8F5C8530214E51EF002B33E3 /* 数据源 */,
-				8F5C852F214E514A002B33E3 /* BaseVC */,
-				8FE526EA2149FF7E00C104C4 /* 组件 */,
+				8FE83F5B2151053300116E82 /* View */,
+				8F5C8530214E51EF002B33E3 /* DataSource */,
+				8FE526EA2149FF7E00C104C4 /*  Components */,
 				8FF4CE492148A7D000CD15F1 /* AppDelegate.h */,
 				8FF4CE4A2148A7D000CD15F1 /* AppDelegate.m */,
 				8FF4CE4C2148A7D000CD15F1 /* XLViewController.h */,
@@ -394,7 +484,7 @@
 				8FF4CE6A2149285A00CD15F1 /* XLVCTBCell.xib */,
 				8FF4CE4F2148A7D000CD15F1 /* Main.storyboard */,
 				8FE526F3214A01AB00C104C4 /* PrefixHeader.pch */,
-				8F5C852E214E50B9002B33E3 /* 宏定义 */,
+				8F5C852E214E50B9002B33E3 /* Definition */,
 				8FF4CE522148A7D200CD15F1 /* Assets.xcassets */,
 				8FF4CE542148A7D200CD15F1 /* LaunchScreen.storyboard */,
 				8FF4CE572148A7D200CD15F1 /* Info.plist */,
@@ -408,7 +498,6 @@
 			children = (
 				8FF4CE632149193100CD15F1 /* XLUIViewAnimationVC.h */,
 				8FF4CE642149193100CD15F1 /* XLUIViewAnimationVC.m */,
-				8FF4CE662149198900CD15F1 /* XLUIViewAnimationVC.xib */,
 			);
 			path = "视图动画";
 			sourceTree = "<group>";
@@ -488,21 +577,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FE83F6C2151248C00116E82 /* XLOnlyTextCell.xib in Resources */,
 				8FE83F552151043400116E82 /* XLScreenAutomaticRotationVC.xib in Resources */,
 				8F892F0521ABF7160004C323 /* XLTouchIDVC.xib in Resources */,
 				8FF4CE562148A7D200CD15F1 /* LaunchScreen.storyboard in Resources */,
 				8F3522E6214FC67A00824F5B /* XLStreamPlayVC.xib in Resources */,
 				8FF4CE6C2149285A00CD15F1 /* XLVCTBCell.xib in Resources */,
+				8FB0C15F21D5CBAE0071EEC6 /* DesignPattern.plist in Resources */,
 				8F5C8533214E522C002B33E3 /* NetworkData.json in Resources */,
 				8F5C0B9821AD35E600DD7D64 /* XLBluetoothVC.xib in Resources */,
 				8FE83F5A2151048500116E82 /* XLScreenForceRotation.xib in Resources */,
 				8FF4CE532148A7D200CD15F1 /* Assets.xcassets in Resources */,
 				8F5C8534214E522C002B33E3 /* VCClassName.plist in Resources */,
-				8FE83F67215123F600116E82 /* XLOnlyTextTableVC.xib in Resources */,
 				8F117EB22195214000AAC72F /* XLFactoryPatternVC.xib in Resources */,
-				8FF4CE672149198900CD15F1 /* XLUIViewAnimationVC.xib in Resources */,
-				8FE83F622151209F00116E82 /* XLOnlyTextTable.xib in Resources */,
 				8FF4CE512148A7D000CD15F1 /* Main.storyboard in Resources */,
 				8FE83F502150F8E600116E82 /* XLScreenRotationVC.xib in Resources */,
 				8F3522DD214FC16B00824F5B /* XLMusicPlayerVC.xib in Resources */,
@@ -544,26 +630,32 @@
 				8F892F0821ABF90B0004C323 /* XLTouchID.m in Sources */,
 				8FF4CE592148A7D200CD15F1 /* main.m in Sources */,
 				8F3522E5214FC67A00824F5B /* XLStreamPlayVC.m in Sources */,
+				8F08B9E021D712090038C551 /* UIViewController+XLAlertView.m in Sources */,
 				8F117EB12195214000AAC72F /* XLFactoryPatternVC.m in Sources */,
 				8FF4CE6B2149285A00CD15F1 /* XLVCTBCell.m in Sources */,
 				8FF4CE652149193100CD15F1 /* XLUIViewAnimationVC.m in Sources */,
-				8FE83F6B2151248C00116E82 /* XLOnlyTextCell.m in Sources */,
 				8F5C0B9721AD35E600DD7D64 /* XLBluetoothVC.m in Sources */,
 				8F117EC321952CB300AAC72F /* XLClassUtils.m in Sources */,
 				8F5C0B9221AD350000DD7D64 /* XLBluetooth.m in Sources */,
 				8F892F0421ABF7160004C323 /* XLTouchIDVC.m in Sources */,
 				8F15441521A2B86E00F0DE02 /* XLFactoryPatternConfigureModel.m in Sources */,
+				8F9BB0BC21D1D88100C5717C /* XLWebViewPresenter.m in Sources */,
+				8F7921E021D47750002C1BA5 /* XLOnlyTextCell.m in Sources */,
 				8FE83F4F2150F8E600116E82 /* XLScreenRotationVC.m in Sources */,
 				8F117EBE219522B600AAC72F /* XLFactoryPatternCellC.m in Sources */,
 				8FF4CE62214918E900CD15F1 /* XLBaseVC.m in Sources */,
 				8F117EB52195226F00AAC72F /* XLFactoryPatternBaseCell.m in Sources */,
 				8FE83F592151048500116E82 /* XLScreenForceRotation.m in Sources */,
 				8FE83F66215123F600116E82 /* XLOnlyTextTableVC.m in Sources */,
+				8F9BB0C021D2076A00C5717C /* XLWebViewBaseVC.m in Sources */,
 				8F3522DB214FB25500824F5B /* XLMusicPlayerVC.m in Sources */,
 				8FE526ED2149FFB200C104C4 /* XLTutoriaPagesVC.m in Sources */,
+				8F7921DD21D47281002C1BA5 /* XLBaseCell.m in Sources */,
 				8FE526F02149FFE800C104C4 /* TutorialPages.m in Sources */,
-				8FE83F60215105F200116E82 /* XLOnlyTextTable.m in Sources */,
+				8FB0C16221D5CD550071EEC6 /* XLDesignPatternVC.m in Sources */,
 				8FF4CE4B2148A7D000CD15F1 /* AppDelegate.m in Sources */,
+				8F08B9E121D712090038C551 /* XLAlertView.m in Sources */,
+				8FB0C16521D62A550071EEC6 /* UINavigationController+StatusBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

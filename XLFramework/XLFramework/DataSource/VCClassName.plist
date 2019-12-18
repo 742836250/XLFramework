@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>vcClassName</key>
+		<string>XLDesignPatternVC</string>
+		<key>cellContent</key>
+		<string>设计模式</string>
+	</dict>
+	<dict>
+		<key>vcClassName</key>
+		<string>XLScreenRotationVC</string>
+		<key>cellContent</key>
+		<string>屏幕旋转</string>
+	</dict>
+	<dict>
+		<key>vcClassName</key>
+		<string>XLStreamPlayVC</string>
+		<key>cellContent</key>
+		<string>播放器</string>
+	</dict>
+	<dict>
+		<key>vcClassName</key>
+		<string>XLUIViewAnimationVC</string>
+		<key>cellContent</key>
+		<string>动画</string>
+	</dict>
+	<dict>
+		<key>vcClassName</key>
+		<string>XLTouchIDVC</string>
+		<key>cellContent</key>
+		<string>指纹识别</string>
+	</dict>
+	<dict>
+		<key>vcClassName</key>
+		<string>XLBluetoothVC</string>
+		<key>cellContent</key>
+		<string>蓝牙</string>
+	</dict>
+</array>
+</plist>

@@ -11,9 +11,9 @@
 
 @interface XLViewController ()<UITableViewDelegate,UITableViewDataSource>
 
-@property (weak, nonatomic) IBOutlet UITableView *mainTabView;
+@property (weak, nonatomic) IBOutlet UITableView *xl_mainTabView;
 
-@property (nonatomic, strong,readwrite) NSArray *dataArr;
+@property (nonatomic, strong,readwrite) NSArray *xl_dataArr;
 
 @end
 
@@ -22,19 +22,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.mainTabView registerNib:[UINib nibWithNibName:@"XLVCTBCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"cell"];
+    
+    [self.xl_mainTabView registerNib:[UINib nibWithNibName:@"XLVCTBCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"cell"];
 }
 
 #pragma mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return self.dataArr.count;
+    return self.xl_dataArr.count;
 }
 
 - (XLVCTBCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     XLVCTBCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"forIndexPath:indexPath];
-    NSDictionary *dic = self.dataArr[indexPath.row];
+    NSDictionary *dic = self.xl_dataArr[indexPath.row];
     cell.contentLab.text = dic[@"cellContent"];
     return cell;
 }
@@ -43,13 +44,14 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return UITableViewAutomaticDimension;
+    return 64.0f;
+//    return UITableViewAutomaticDimension;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    NSDictionary *dic = self.dataArr[indexPath.row];
+    NSDictionary *dic = self.xl_dataArr[indexPath.row];
     
     Class VCClass = [NSClassFromString(dic[@"vcClassName"]) class];
     UIViewController *vc = (UIViewController *)[VCClass new];
@@ -62,20 +64,20 @@
     
 }
 
-- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    return 81.0f;
-}
+//- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    return 81.0f;
+//}
 
 
-- (NSArray *)dataArr
+- (NSArray *)xl_dataArr
 {
-    if (!_dataArr)
+    if (!_xl_dataArr)
     {
         NSString *fileName = [[NSBundle mainBundle] pathForResource:@"VCClassName" ofType:@"plist"];
-        _dataArr =  [NSArray arrayWithContentsOfFile:fileName];
+        _xl_dataArr =  [NSArray arrayWithContentsOfFile:fileName];
     }
-    return _dataArr;
+    return _xl_dataArr;
 }
 
 - (void)didReceiveMemoryWarning
